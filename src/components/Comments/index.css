@@ -1,0 +1,60 @@
+/* Write your CSS here */
+.background-container {
+  background-color: #dee0e3;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.comments-image {
+  height: 220px;
+}
+.comments-container {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+}
+.input-value {
+  margin-bottom: 10px;
+  height: 30px;
+  width: 220px;
+  padding: 2px;
+  outline: none;
+  border: 1px solid #cbd2d9;
+  background-color: transparent;
+}
+.textarea-size {
+  outline: none;
+  width: 220px;
+  padding: 2px;
+  border: 1px solid #cbd2d9;
+  background-color: transparent;
+  font-family: 'Roboto';
+}
+.comments-container {
+  text-align: start;
+}
+.list-item-container {
+  width: 90%;
+}
+.span-container {
+  background-color: #0284c7;
+  height: 8px;
+  padding: 5px;
+  border-radius: 2px;
+  color: #cbd2d9;
+  margin-right: 3px;
+  font-size: 10px;
+}
+.comments-heading {
+  font-family: 'Roboto';
+  font-size: 10px;
+  color: #64748b;
+}
+.app-heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 48px;
+  margin-bottom: 12px;
+}
